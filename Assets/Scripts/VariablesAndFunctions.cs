@@ -11,7 +11,8 @@ public class VariablesAndFunctions : MonoBehaviour
     {
         myInt = MultiplyByTwo(myInt);
         Debug.Log ("myInt:" + myInt);
-        Debug.LogError("error!!!");
+        // 에러보이고 싶으면 EogError 사용
+        Debug.LogError("Error!!!");
 
     }
     int MultiplyByTwo (int number)
