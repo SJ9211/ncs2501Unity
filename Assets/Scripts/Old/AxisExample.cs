@@ -24,7 +24,7 @@ public class AxisExample : MonoBehaviour
         transform.position = new Vector3(xPos, 0, vPos);
         //textOutput.text = "Value Returned:" + h.ToString("F2");
         //textOutput.text = "$Value Returned: {h:F2}";
-        hTextOutput.text = "H Returnde: {h:F2}";
-        vTextOutput.text = "V Returned: {v:F2}";
+        hTextOutput.text = "H Returnde: 0.00";
+        vTextOutput.text = "V Returned: 0.00";
     }
 }
