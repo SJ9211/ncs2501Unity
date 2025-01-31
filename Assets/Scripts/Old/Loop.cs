@@ -13,6 +13,18 @@ public class Loop : MonoBehaviour
     }
     void ForLoop()
     {
+           // for ㅁ 뜨면 Tab를 누르면 코드가 자동완성됌
+        //for (int k = 0; k < 1000; k++)
+        //{
+            
+        //}
+        int a = 0;
+        for(int i = 0; i < 10; i++) 
+        {
+            a++;
+        }
+
+
         for (int i = 0; i < numEnemies; i++)
         {
             Debug.Log("Creating enemy number:" + i);
@@ -21,6 +33,7 @@ public class Loop : MonoBehaviour
 
      void WhileLoop()
      {
+        
         int cupsInTheSink = 4;
 
         while (cupsInTheSink > 0)
